@@ -29,6 +29,6 @@ class StockProductAdmin(admin.ModelAdmin):
     list_display_links = ('id',)
     list_editable = ('stock', 'product', 'quantity', 'price')
     ordering = ['id']
-    fields = ['stock', 'product']
+    fields = ['stock', 'product', 'quantity', 'price']
     save_on_top = True
     list_per_page = 10
